@@ -28,9 +28,9 @@ Heap::Heap(int size) {
 }
 
 Heap::~Heap() {
-	delete [] A;
-	delete [] heap_ref;
-	delete [] element_map;
+    delete [] A;
+    delete [] heap_ref;
+    delete [] element_map;
 }
 
 int Heap::parent(int i) {
